@@ -1,5 +1,5 @@
 /*
- * GOTO2.ino Written by Igor Ovchinnikov 17/07/2016
+ * GOTO2.ino Written by Igor Ovchinnikov 05/04/2018
  */
 
 #define ENABLE_XYZ_PIN 8 //Enable X,Y,Z pin
@@ -47,7 +47,7 @@ boolean bLCD    = false;  //Скоро пригодится
 boolean bForceX = false;  //Ускоренный режим Х
 boolean bForceY = false;  //Ускоренный режим Y
 
-#include <D:\YandexDisk\Home\Arduino\_MySketches\GOTO3\GOTO3.h>
+#include "GOTO3.h"
 
 int AskControl()
 {
